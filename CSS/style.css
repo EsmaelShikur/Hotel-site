@@ -1,0 +1,344 @@
+* {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+header {
+  background-color: #928989;
+  /* position: fixed; */
+  width: 100%;
+}
+ul img {
+  width: 20px;
+}
+
+.hotel-icon {
+  height: 30px;
+}
+ul li {
+  list-style: none;
+  /* margin: 0 auto; */
+}
+
+header ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.large-screen a:hover {
+  opacity: 0.6;
+}
+header a {
+  text-decoration: none;
+  color: white;
+}
+
+#close-list {
+  display: none;
+}
+
+@media (min-width: 460px) {
+  .pad-left {
+    padding-left: 10% !important;
+  }
+}
+
+.icons img {
+  width: 18px;
+}
+.lists {
+  background-color: white;
+  display: none;
+}
+.lists a {
+  color: blue;
+}
+.lists a:hover {
+  color: hsl(246, 94%, 65%);
+  /* background-color: #928989; */
+}
+
+.lists div {
+  text-align: center;
+  padding-top: 15px;
+}
+
+.lists div:last-child {
+  padding-bottom: 15px;
+}
+@media (max-width: 819px) {
+  .large-screen {
+    display: none;
+  }
+}
+@media (min-width: 820px) {
+  .large-screen {
+    display: flex;
+  }
+  .lists {
+    display: none !important;
+  }
+
+  .min-screen {
+    display: none;
+  }
+  #Home h1 {
+    font-size: 58px !important;
+  }
+  #Home p {
+    font-size: 25px !important;
+  }
+  .attach {
+    padding-top: 75% !important;
+  }
+}
+
+@media (min-width: 1026px) {
+  .attach {
+    padding-top: 30% !important;
+  }
+}
+
+/********** HOME ***********/
+
+#Home img {
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+}
+img {
+  cursor: pointer;
+}
+#Home h1 {
+  font-weight: 700;
+
+  margin-bottom: 10px;
+  color: #fff;
+}
+#Home p {
+  color: #fff;
+  margin-bottom: 15px;
+}
+
+#Home .more {
+  margin-right: 15px;
+  padding: 10px 20px;
+}
+
+#Home {
+  background-image: url(../images/Tower-of-London-citizenM-hotel-exterior-garden-outside-2_20605534f64b0294621cb41c-1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+#Home .contact {
+  padding: 10px 20px;
+}
+.attach {
+  height: 100vh;
+
+  padding-top: 90%;
+  padding-bottom: 20px;
+  margin-left: 5%;
+}
+
+/*********** ABOUT *********/
+
+.sub-titles {
+  color: white;
+  font-size: 23px;
+  font-weight: 400;
+}
+
+.length {
+  width: 80%;
+}
+.sub-titles button {
+  padding: 15px 10px;
+}
+.imm img {
+  height: 80% !important;
+  width: 100% !important;
+  border-radius: 2rem;
+
+  aspect-ratio: 16/9;
+  object-fit: cover;
+  object-position: center;
+  transition: 200ms transform ease-in-out;
+}
+.imm img:hover {
+  transform: scale(1.025);
+}
+
+#Home {
+  margin-bottom: 800px !important;
+}
+@media (min-width: 576px) {
+  #Home {
+    margin-bottom: 410px !important;
+  }
+}
+@media (min-width: 1200px) {
+  #Home {
+    margin-bottom: 230px !important;
+  }
+  .imm img {
+    height: 65% !important;
+  }
+}
+
+.info {
+  background-image: url(../images/room-night-helsinki-espoo-finland-amazing-hotelroom-vacation-goals-177163558.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  font-weight: 800;
+  text-align: center;
+  font-size: 25px;
+  margin-bottom: 60px;
+}
+
+.info p {
+  font-size: 17px !important;
+  font-weight: normal;
+}
+#Rooms h1 {
+  font-weight: 900;
+  font-size: 50px;
+}
+.room-img img {
+  width: 100%;
+  max-height: 200px;
+  aspect-ratio: 16/9;
+  object-fit: cover;
+  object-position: center;
+  transition: 200ms transform ease-in-out;
+}
+.borders:hover {
+  transform: scale(1.025);
+  background-color: #333;
+  color: white;
+}
+
+.borders:hover button {
+  color: white;
+}
+
+.borders:hover .hov {
+  color: #0dcaf0 !important;
+}
+
+.room-img img:hover {
+  transform: scale(1.025);
+}
+
+.borders {
+  overflow: hidden;
+  border-radius: 0.25rem;
+  margin-bottom: 30px;
+  padding-top: 3px;
+  box-shadow: 0 3px 5px 0 #777;
+}
+.img-discription {
+  font-size: 25px;
+  font-weight: 800;
+}
+.rows {
+  display: flex !important;
+}
+
+.rows button {
+  padding: 10px 15px;
+  margin-right: 10px !important;
+}
+/************* sevices ************/
+
+#Services {
+  background-color: #333;
+  color: white;
+  text-align: center;
+}
+#Services img {
+  width: 100%;
+  border-radius: 18rem;
+  max-height: 200px;
+  aspect-ratio: 16/9;
+  object-fit: cover;
+  object-position: center;
+  transition: 200ms transform ease-in-out;
+}
+#Services img:hover {
+  transform: scale(1.025);
+}
+#Services h1 {
+  font-size: 50px;
+  font-weight: 700;
+}
+#News h1 {
+  font-size: 50px;
+  font-weight: 700;
+}
+#News {
+  text-align: center;
+}
+
+#News img {
+  width: 100%;
+  aspect-ratio: 16/9;
+  object-fit: cover;
+  object-position: center;
+  transition: 200ms transform ease-in-out;
+}
+#News img:hover {
+  transform: scale(1.025);
+}
+
+.imgg img {
+  border-radius: 5rem;
+}
+#News h4 {
+  font-weight: 590;
+  color: aqua;
+}
+.imgg img {
+  height: 100%;
+}
+
+.full img {
+  height: 60%;
+}
+
+.imgg h5 {
+  font-weight: bold !important;
+  font-size: 24px;
+  color: red;
+}
+.subscribe {
+  text-align: center;
+}
+
+.subscribe button,
+input:focus {
+  border-color: white;
+}
+.subscribe input {
+  background-color: #b4ceb2;
+  border-color: #b4ceb2;
+}
+footer .cens {
+  text-align: center;
+}
+footer ul {
+  list-style: none;
+}
+footer ul li {
+  padding-top: 10px;
+}
+footer a {
+  text-decoration: none;
+}
+
+.cen h3 {
+  text-align: center;
+}
